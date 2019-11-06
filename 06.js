@@ -31,7 +31,7 @@ if( nom.val()==''{
 }
 
 //-- Email
-if(email.val()==''){
+if( email.val()==''{
     console.log('Vous avez oublié votre email...');
     email.addClass('is-invalid');
 }
